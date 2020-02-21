@@ -11,13 +11,16 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-theme = "sam"
-description = "Meu blog Maravilhoso"
-title = "Meu Blog"
+theme = "hyde"
+description = "I'm Eric."
+title = "My Blog"
 
 [extra]
-sam_menu = [
-    { text = "posts", link = "/posts" },
-    { text = "about", link = "/about" },
-    { text = "github", link = "https://github.com/kureck" }
+hyde_links = [
+    { name = "posts", url = "/posts" },
+    { name = "about", url = "/about" },
+    { name = "github", url = "https://github.com/kureck" }
 ]
+hyde_sticky = false
+hyde_theme = "theme-base-08"
+hyde_reverse = true
