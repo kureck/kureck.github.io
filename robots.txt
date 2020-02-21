@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://kureck.github.io/sitemap.xml
